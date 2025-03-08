@@ -1,0 +1,5 @@
+let prompts = []
+
+function generateNewPrompt(){
+    
+}
