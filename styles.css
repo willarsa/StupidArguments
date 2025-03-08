@@ -23,7 +23,7 @@
 .prompt-container{
     /* background-color: black; */
     
-    border-color: black;
+    /* border-color: black;
     width: auto;
     height: auto;
     max-width: 40%;
@@ -35,23 +35,24 @@
     justify-content: center;
     
     margin: 0 auto;
-    text-align: center;
+    text-align: center; */
 
 }
 
-.button-container{
+.text-button-container{
     display:flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     margin: 10px;
 }
 
-.button-container button{
-    /* border-radius: 10px; */
+.text-button-container button{
     border: none;
     height:50px;
     width:150px;
+    margin-top: 10px;
 
     background-color: #003b7b;
     color: white;
@@ -59,8 +60,22 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.button-container hover{
-    border-radius: 10px;
-    height:50px;
-    width:150px;
+.text-button-container button:hover{
+    scale: 1.1;
+}
+
+.text-button-container button:active{
+    scale: 1.2;
+    background-color: #125ba9;
+}
+
+#display{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    /* max-width: 500px; */
 }
