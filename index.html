@@ -8,11 +8,18 @@
       <h1 class="site-title">Stupid Arguments!</h1>
     </div>
     
-    <div class="text-button-container">
-      <input id="display" readonly>
-      <button onclick="generateNewPrompt()">Get New Prompt!</button>
-      <button onclick="reloadPrompts()">Reload Prompts!</button>
+    <div class="body-container">
+      <div class="player-tally">
+        <input id="player-display" readonly>
+      </div>
+  
+      <div class="text-button-container">
+        <input id="display" readonly>
+        <button onclick="generateNewPrompt()">Get New Prompt!</button>
+        <button onclick="reloadPrompts()">Reload Prompts!</button>
+      </div>
     </div>
+    
     <script src="index.js"></script>
   </body>
 </html>

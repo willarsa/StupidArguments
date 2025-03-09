@@ -1,3 +1,27 @@
+.body-container{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%; */
+
+    margin: 0;
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    align-items: start;
+    height: auto;
+}
+
+.player-tally{
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+
+    align-self: flex-start;
+    margin-right: auto; 
+    padding: 10px;
+}
 .site-header {
     background-color: #00244b; 
     color: white; 
@@ -17,35 +41,16 @@
 .site-title{
     font-size: 24px;
     margin: 0;
-    font-size: 6rem;
-}
-
-.prompt-container{
-    /* background-color: black; */
-    
-    /* border-color: black;
-    width: auto;
-    height: auto;
-    max-width: 40%;
-    max-height: 20%;
-    overflow: hidden;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    margin: 0 auto;
-    text-align: center; */
-
+    font-size: 8vw;
 }
 
 .text-button-container{
+    margin-top: 10px;
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    margin: 10px;
+    align-self: flex-start;
 }
 
 .text-button-container button{
@@ -78,4 +83,14 @@
     border: none;
     background-color: rgb(211, 211, 211);
     /* max-width: 500px; */
+}
+
+#player-display{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    background-color: rgb(211, 211, 211);
 }
